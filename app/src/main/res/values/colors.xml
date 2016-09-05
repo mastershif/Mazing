@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#81D4FA</color>
+    <color name="colorPrimaryDark">#29B6F6</color>
+    <color name="colorPrimaryDarker">#039BE5</color>
+    <color name="colorAccent">#00E676</color>
+    <color name="windowBackground">#E1F5FE</color>
+    <color name="toolbarText">#FFFF00</color>
+    <color name="mazeWalls">#00C853</color>
+    <color name="solver">#76FF03</color>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mazing</string>
+    <string name="new_maze_button">New Maze!</string>
+    <string name="maze_solved">Well Done!</string>
+    <string name="action_level">Choose level</string>
+</resources>

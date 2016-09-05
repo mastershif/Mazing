@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mazing_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/toolbarText"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/mazeWrapper"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_arrow_top_up"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/strawberry"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/strawberry"
+                android:rotation="315"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+        <!--
+        <com.example.shif.mazing.FingerLine
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/fingerLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            android:theme="@style/MazeButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentCenter="true"
+            android:background="@layout/new_maze_button_settings"
+            style="@style/SelectableItemBackground"
+            android:background="?attr/selectableItemBackground"
+            style="@style/SelectableItemBackground"
+
+            android:onClick="createMaze"
+            -->
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/newMazeButton"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_autorenew"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            app:backgroundTint="@color/colorAccent"
+            app:rippleColor="@color/mazeWalls"
+            android:clickable="true" />
+
+</LinearLayout>
+
+<!-- android:drawableRight="@drawable/ic_autorenew" -->
