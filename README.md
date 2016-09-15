@@ -11,11 +11,9 @@ The following screenshots show the app when it first opens,
 when the maze is half-way solved 
 and after the level was changed to level 1 and the maze was solved by the user:
 
-<img src="https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-212952.png" width="200">
-
-![Just opened](https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-212952.png)
-![Half solved](https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-213006.png)
-![Level 1 solved](https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-213036.png)
+<img src="https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-212952.png" alt-text="Just opened" width="200">
+<img src="https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-213006.png" alt-text="Half solved opened" width="200">
+<img src="https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-213036.png" alt-text="Level 1 solved" width="200">
 
 ## How It Works 
 
