@@ -11,7 +11,7 @@ The following screenshots show the app when it first opens,
 when the maze is half-way solved 
 and after the level was changed to level 1 and the maze was solved by the user:
 
-![Just opened](/Screenshot_20160915-212952.jpg?raw=true "Just opened")
+![Just opened](https://raw.githubusercontent.com/mastershif/Mazing/master/Screenshot_20160915-212952.png)
 
 ![Half solved](/Screenshot_20160915-213006.jpg?raw=true "Half solved")
 
