@@ -6,6 +6,14 @@ In this app you can:
 - Solve the maze with your finger
 - Generate new (and different) mazes to solve
 
+## What it looks like
+The following screenshots show the app when it first opens, 
+when the maze is half-way solved 
+and after the level was changed to level 1 and the maze was solved by the user:
+![Alt text](/Screenshot_20160915-212952.jpg?raw=true "Just opened")
+![Alt text](/Screenshot_20160915-213006.jpg?raw=true "Half solved")
+![Alt text](/Screenshot_20160915-213036.jpg?raw=true "Level 1 solved")
+
 ## How It Works 
 
 The maze is built based on an NxN grid, represented by a graph and 2 arrays of vertical and horizontal walls.
